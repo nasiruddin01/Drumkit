@@ -3,47 +3,47 @@ body {
   background-color: #283149;
 }
 
-#title {
+body #title {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Avro", cursive;
   text-shadow: 3px 0 #DA0463;
 }
 
-.set {
+body .set {
   margin-top: 8%;
   margin-bottom: 7%;
 }
 
-.set .w {
-  background-image: url("images/tom1.png");
+body .set .w {
+  background-image: url("../images/tom1.png");
 }
 
-.set .a {
-  background-image: url("images/tom2.png");
+body .set .a {
+  background-image: url("../images/tom2.png");
 }
 
-.set .s {
-  background-image: url("images/tom3.png");
+body .set .s {
+  background-image: url("../images/tom3.png");
 }
 
-.set .d {
-  background-image: url("images/tom4.png");
+body .set .d {
+  background-image: url("../images/tom4.png");
 }
 
-.set .j {
-  background-image: url("images/snare.png");
+body .set .j {
+  background-image: url("../images/snare.png");
 }
 
-.set .k {
-  background-image: url("images/crash.png");
+body .set .k {
+  background-image: url("../images/crash.png");
 }
 
-.set .l {
-  background-image: url("images/kick.png");
+body .set .l {
+  background-image: url("../images/kick.png");
 }
 
-.set .drum {
+body .set .drum {
   outline: none;
   border: 5px solid black;
   font-size: 5rem;
@@ -60,7 +60,7 @@ body {
   margin: 10px;
 }
 
-.pressed {
+body .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
